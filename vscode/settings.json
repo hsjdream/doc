@@ -1,0 +1,9 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    // 在使用函数的同时，后面添加括号
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    // 禁止vscode 菜单的快捷键
+    "window.enableMenuBarMnemonics": false,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true
+}
