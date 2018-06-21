@@ -2,7 +2,7 @@
 
 ### 简介
 
-[redis-port](https://github.com/CodisLabs/redis-port)可以全量+增量将数据同步到另一个redis,做到数据的平滑迁移.
+[redis-port](https://github.com/CodisLabs/redis-port)可以全量+增量将数据同步到另一个redis,做到数据的平滑迁移.将自己伪装为副本,从主同步数据,依赖`sync`/`psync`命令.
 
 ### 下载
 
