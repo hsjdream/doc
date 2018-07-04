@@ -14,3 +14,17 @@ chmod 600 .ssh/authorized_keys
 ssh -i /path/to/gen_private root@host
 ```
 
+多私钥管理
+
+```shell
+# 在用户目录的.ssh目录中创建config文件,以root为例 
+cat > /root/.ssh/config << EOF
+Host gitlab.com
+    HostName gitlab.com
+    IdentityFile /path/to/idfile
+
+Host github.com
+    HostName github.com
+    IdentityFile /path/to/idfile
+EOF
+```
