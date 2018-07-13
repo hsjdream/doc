@@ -2,6 +2,17 @@
 
 https://redis.io/topics/quickstart
 
+### centos7安装
+
+```shell
+yum install -y redis.x86_64
+systemctl enable redis
+systemctl start redis
+# Redis server v=3.2.10 sha=00000000:0 malloc=jemalloc-3.6.0 bits=64 build=c8b45a0ec7dc67c6
+```
+
+### 自行安装
+
 ```
 bind 127.0.0.1
 protected-mode yes
