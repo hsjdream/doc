@@ -21,7 +21,25 @@ docker run \
 
 导出数据库
 
+```shell
+./pg_dump \
+  --host 127.0.0.1 \
+  --port 5432 \
+  --username postgres \
+  --password \
+  --dbname db \
+  > db.sql
 ```
-pg_dump -U postgres db > db.sql
+
+导入数据库
+
+```shell
+./psql \
+  --host 127.0.0.1 \
+  --port 5432 \
+  --username postgres \
+  --password \
+  --dbname db \
+  --file /tmp/kong.sql
 ```
 
