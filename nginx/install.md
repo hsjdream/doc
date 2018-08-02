@@ -20,3 +20,16 @@ rpm --import nginx_signing.key
 yum install -y nginx.x86_64
 ```
 
+nginx 配置静态页面
+
+```
+server {
+    listen       80;
+    server_name  localhost;
+    root /path/to/root;
+    index index.html;
+}
+```
+
+
+
