@@ -44,6 +44,13 @@ WantedBy=multi-user.target
 
 ```
 kafka-topics.sh --list --zookeeper 127.0.0.1:2181
+kafka-topics.sh --describe --zookeeper 127.0.0.1:2181 --topic xx
+```
+
+kafka集群
+
+```
+# server.properties中的broker.id不同即可
 ```
 
 
