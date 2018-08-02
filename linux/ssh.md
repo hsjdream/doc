@@ -28,3 +28,13 @@ Host github.com
     IdentityFile /path/to/idfile
 EOF
 ```
+ssh_exchange_identification: read: Connection reset by peer
+
+```shell
+vi /etc/hosts.allow
+# add
+sshd: ALL
+# restart
+systemctl restart sshd
+```
+
