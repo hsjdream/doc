@@ -16,5 +16,11 @@ var LogFunc func(string, ...interface{}) = log.Printf
 
 
 
+golang 类型别名
 
+http://colobu.com/2017/06/26/learn-go-type-aliases/
+
+gogoprotobuf
+
+https://github.com/gogo/protobuf
 
