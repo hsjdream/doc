@@ -24,3 +24,28 @@ gogoprotobuf
 
 https://github.com/gogo/protobuf
 
+golang自定义导入包路径
+
+#### go tool pprof
+
+查看cpu
+
+```shell
+# cpu
+go tool pprof http://xx.xx.xx.xx:xx/debug/pprof/profile
+# top占用cpu从高到低的函数
+top
+# web 可以在浏览器中查看具体内容
+web
+# svg 可以将信息保存在svg图像中
+svg
+```
+
+查看内存
+
+```shell
+# 内存
+go tool pprof http://xx.xx.xx.xx:xx/debug/pprof/heap?debug=1
+# 进入之后操作同上
+```
+
