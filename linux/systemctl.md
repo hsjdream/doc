@@ -1,3 +1,8 @@
+### systemctl
+
+service
+
+```c
 [Unit]
 Description=Test Service
 After=storage.service
@@ -17,3 +22,5 @@ RestartSec=2s
 
 [Install]
 WantedBy=multi-user.target
+```
+
