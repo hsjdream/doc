@@ -15,3 +15,9 @@ cat /proc/swaps
 swapoff -a
 ```
 
+复制保留目录结构
+
+```shell
+cp --parents src dst
+```
+
