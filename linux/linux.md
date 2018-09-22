@@ -21,3 +21,9 @@ swapoff -a
 cp --parents src dst
 ```
 
+查看二进制依赖的动态链接库
+
+```shell
+ldd /bin/bash
+```
+
