@@ -19,5 +19,6 @@ swapoff -a
 
 ```shell
 nc -vuz xx.xx.xx.xx 4500
+# Connection to xx.xx.xx.xx 4500 port [udp/ipsec-nat-t] succeeded!
 ```
 
