@@ -15,3 +15,9 @@ cat /proc/swaps
 swapoff -a
 ```
 
+测试udp端口是否可用
+
+```shell
+nc -vuz xx.xx.xx.xx 4500
+```
+
