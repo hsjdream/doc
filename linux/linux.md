@@ -28,3 +28,15 @@ nc -vuz xx.xx.xx.xx 4500
 gzip -d filename
 ```
 
+复制保留目录结构
+
+```shell
+cp --parents src dst
+```
+
+查看二进制依赖的动态链接库
+
+```shell
+ldd /bin/bash
+```
+
