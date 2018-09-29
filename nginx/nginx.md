@@ -96,3 +96,26 @@ stream {
     }
 }
 ```
+#### nginx配置tcp域名动态解析(commercial subscription)
+
+http://nginx.org/en/docs/stream/ngx_stream_upstream_module.html#server
+
+```
+stream {
+    resolver 127.0.0.1 valid=30s ipv6=off;
+
+    upstream backend {
+        server haormj.com:3306 resolve;
+    }
+
+    server {
+        listen 3306;
+        proxy_connect_timeout 3s;
+        proxy_timeout 86400s;
+        proxy_pass backend;
+    }
+}
+```
+
+
+
