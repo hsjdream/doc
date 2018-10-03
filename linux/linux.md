@@ -15,6 +15,19 @@ cat /proc/swaps
 swapoff -a
 ```
 
+测试udp端口是否可用
+
+```shell
+nc -vuz xx.xx.xx.xx 4500
+# Connection to xx.xx.xx.xx 4500 port [udp/ipsec-nat-t] succeeded!
+```
+
+解压.gz文件
+
+```shell
+gzip -d filename
+```
+
 复制保留目录结构
 
 ```shell
