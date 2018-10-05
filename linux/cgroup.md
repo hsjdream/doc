@@ -1,5 +1,28 @@
 ### cgroup
 
+#### cpu
+
+```
+cgroup.clone_children
+cgroup.event_control
+cgroup.procs
+cpuacct.stat
+cpuacct.usage
+cpuacct.usage_percpu
+# 时间周期长度
+cpu.cfs_period_us
+# 在当前cgroup在设置的周期长度内所能使用的cpu时间数
+cpu.cfs_quota_us
+cpu.rt_period_us
+cpu.rt_runtime_us
+# cpu的相对值
+cpu.shares
+# cpu统计值
+cpu.stat
+notify_on_release
+tasks
+```
+
 #### memory
 
 ```
@@ -48,8 +71,7 @@ memory.kmem.tcp.usage_in_bytes
 memory.kmem.usage_in_bytes
 ```
 
-
-
 #### 参考
 
 1. [ Linux Cgroup系列（04）：限制cgroup的内存使用（subsystem之memory）](https://segmentfault.com/a/1190000008125359)
+2. [[Linux Cgroup系列（05）：限制cgroup的CPU使用（subsystem之cpu）](https://segmentfault.com/a/1190000008323952)]
