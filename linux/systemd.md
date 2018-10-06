@@ -31,8 +31,19 @@ RestartSec=2s
 WantedBy=multi-user.target
 ```
 
-#### 限制文档
+#### systemd.resource-control
 
 ```shell
+# CPUQuota/MemoryLimit
 info systemd.resource-control
 ```
+
+#### systemd.exec 
+
+```shell
+# LimitNOFILE/LimitNPROC
+# LimitNOFILE Number of File Descriptors
+# LimitNPROC Number of Processes
+info systemd.exec 
+```
+
