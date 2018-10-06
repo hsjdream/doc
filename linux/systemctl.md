@@ -1,6 +1,6 @@
 ### systemctl
 
-service
+#### service example
 
 ```c
 [Unit]
@@ -16,6 +16,7 @@ Group=test
 Type=simple
 WorkingDirectory=/path/to/work
 ExecStart=/path/to/exec
+MemoryLimit=2G
 
 Restart=on-failure
 RestartSec=2s
@@ -24,3 +25,6 @@ RestartSec=2s
 WantedBy=multi-user.target
 ```
 
+#### 限制文档
+
+`man systemd.resource-control`
