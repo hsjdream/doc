@@ -29,3 +29,11 @@ mysqlbinlog文档
 
 https://blog.csdn.net/leshami/article/details/41962243
 
+gtid
+
+http://www.ywnds.com/?p=3898
+
+
+
+
+
