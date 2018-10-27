@@ -2,6 +2,12 @@
 
 #### server
 
+before
+```shell
+sudo modprobe af_key
+```
+
+
 docker.sh
 
 ```shell
