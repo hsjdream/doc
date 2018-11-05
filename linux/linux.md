@@ -40,3 +40,15 @@ cp --parents src dst
 ldd /bin/bash
 ```
 
+查看dns信息
+
+```shell
+cat /etc/resolv.conf 
+```
+
+查看默认网关信息
+
+```shell
+ip route show
+```
+
