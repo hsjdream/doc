@@ -52,3 +52,9 @@ cat /etc/resolv.conf
 ip route show
 ```
 
+查看系统最大文件描述符
+
+```shell
+ulimit -n
+```
+
