@@ -58,3 +58,9 @@ ip route show
 ulimit -n
 ```
 
+统计tcp连接状态
+
+```shell
+while true; do netstat -apnt | awk '{print $6}' | sort | uniq -c; sleep 1; done
+```
+
