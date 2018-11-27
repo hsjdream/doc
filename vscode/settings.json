@@ -13,8 +13,8 @@
     // 禁止vscode 菜单的快捷键
     "window.enableMenuBarMnemonics": false,
     "go.formatOnSave": true,
-    "go.gopath": "/home/danale/project/go",
-    "go.goroot": "/home/danale/develop/go",
+    "go.gopath": "/path/to/project/go",
+    "go.goroot": "/path/to/develop/go",
     "files.autoSave": "onFocusChange",
     "go.autocompleteUnimportedPackages": true,
     "extensions.ignoreRecommendations": false,
@@ -35,7 +35,7 @@
         ]
     },
     "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": true,
-    "eslint.nodePath": "/home/danale/develop/node-v8.9.0-linux-x64/bin/node",
+    "eslint.nodePath": "/path/to/develop/node-v8.9.0-linux-x64/bin/node",
     "file_peek.activeLanguages": [
         "typescript",
         "javascript",
