@@ -9,3 +9,5 @@
 [user]
 	name = haormj
 	email = haormj@qq.com
+[core]
+	editor = vi
